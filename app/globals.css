@@ -106,6 +106,29 @@ body {
   animation-play-state: paused;
 }
 
+/* ── Announcement Marquee (Top Ticker) ──────────────────── */
+@keyframes announcement-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-33.333%); }
+}
+
+.announcement-track {
+  display: flex;
+  width: max-content;
+  animation: announcement-scroll 30s linear infinite;
+  padding-left: 120px; /* offset for the "Updates" label */
+}
+
+/* ── Weekly Quiz CTA pulse ───────────────────────────────── */
+@keyframes quiz-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255, 179, 0, 0.5); }
+  50%       { box-shadow: 0 0 0 8px rgba(255, 179, 0, 0); }
+}
+
+.quiz-cta-btn {
+  animation: quiz-pulse 2.5s ease infinite;
+}
+
 /* ═══════════════════════════════════════════════════════════
    PREMIUM VISUAL OVERLAYS
    All three are placed LAST in the DOM (after Footer) so they

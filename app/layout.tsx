@@ -3,7 +3,8 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
-import FloatingWhatsApp from "@/components/ui/FloatingWhatsApp"; 
+import FloatingWhatsApp from "@/components/ui/FloatingWhatsApp";
+import AnnouncementMarquee from "@/components/ui/AnnouncementMarquee";
 
 const jakarta = Plus_Jakarta_Sans({ 
   subsets: ["latin"],
@@ -23,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${jakarta.className} min-h-screen flex flex-col antialiased`}>
+        <AnnouncementMarquee />
         <Navbar />
         <main className="flex-grow pb-20 lg:pb-0">{children}</main>
         <FloatingWhatsApp />

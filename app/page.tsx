@@ -4,11 +4,15 @@ import { Users, BookOpen, LineChart, Star, ArrowRight, TrendingUp } from "lucide
 import Link from "next/link";
 import KnowledgeTreeJourney from "@/components/ui/KnowledgeTreeJourney";
 import HeroCarousel from "@/components/ui/HeroCarousel";
+import WeeklyQuizBanner from "@/components/ui/WeeklyQuizBanner";
+
 
 export default function Home() {
   return (
     <div className="w-full bg-white">
 
+      {/* ── WEEKLY QUIZ BANNER ─────────────────────────────────────── */}
+      <WeeklyQuizBanner />
 
       {/* ── HERO ──────────────────────────────────────────────────────── */}
       <section className="relative overflow-hidden pt-12 pb-20 lg:pt-20 lg:pb-28">

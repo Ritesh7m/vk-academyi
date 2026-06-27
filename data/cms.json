@@ -1,0 +1,47 @@
+{
+  "announcements": [
+    {
+      "id": "1",
+      "text": "🎉 Admissions Open for 2026-27! Enroll now for School & Science batches.",
+      "type": "success",
+      "icon": "🎓",
+      "active": true
+    },
+    {
+      "id": "2",
+      "text": "📝 SSC Board Mock Test Series starting July 5th — Register Today!",
+      "type": "info",
+      "icon": "📝",
+      "active": true
+    },
+    {
+      "id": "3",
+      "text": "🏆 Congratulations to our 2026 SSC Toppers! 90%+ results by VK Academy students.",
+      "type": "warning",
+      "icon": "🏆",
+      "active": true
+    },
+    {
+      "id": "4",
+      "text": "📅 Holiday Notice: Academy closed on July 1st (Bank Holiday). Classes resume July 2nd.",
+      "type": "error",
+      "icon": "📅",
+      "active": true
+    },
+    {
+      "id": "5",
+      "text": "🔬 CET Crash Course for 12th Science students — Limited Seats Available!",
+      "type": "info",
+      "icon": "🔬",
+      "active": true
+    }
+  ],
+  "weeklyQuiz": {
+    "active": true,
+    "title": "Weekly Science Quiz — Week 26",
+    "description": "Test your knowledge in Physics, Chemistry & Biology! Top scorers get featured on our Wall of Fame.",
+    "link": "https://forms.google.com/your-quiz-link-here",
+    "startDate": "2026-06-23",
+    "endDate": "2026-06-30"
+  }
+}
